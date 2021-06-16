@@ -16,7 +16,7 @@
         }
     ],
 
-    "homepage": "https://github.com/yokelili/mjn.git",
+    "homepage": "https://github.com/yokelili/mjn",
 
     "require": {
         "php": "^7.0",
