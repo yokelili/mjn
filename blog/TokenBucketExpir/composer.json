@@ -5,7 +5,7 @@
 
     "description": "some small tools",
 
-    "keywords": "tools",
+    "keywords": ["token_bucket_expir"],
 
     "license": "MIT",
 
@@ -16,11 +16,11 @@
         }
     ],
 
-    "homepage": "https://github.com/suhaining/suning",
+    "homepage": "https://github.com/yokelili/mjn.git",
 
     "require": {
         "php": "^7.0",
-        "redis": "*"
+        "predis/predis": "*"
 
     },
 
@@ -31,7 +31,7 @@
 
     "autoload": {
         "psr-4": {
-            "Blog\\TokenBucketExpir\\": "src/",
+            "Blog\\TokenBucketExpir\\": "src/"
 
         }
 
