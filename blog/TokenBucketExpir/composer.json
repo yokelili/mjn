@@ -1,5 +1,5 @@
 {
-    "name": "blog/TokenBucketExpir",
+    "name": "blog/token_bucket_expir",
 
     "type": "library",
 
@@ -19,7 +19,8 @@
     "homepage": "https://github.com/suhaining/suning",
 
     "require": {
-        "php": "^7.0"
+        "php": "^7.0",
+        "redis": "*"
 
     },
 
