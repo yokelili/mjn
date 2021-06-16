@@ -9,6 +9,13 @@
 
     "license": "MIT",
 
+    "authors": [
+        {
+            "name": "winks",
+            "email": "1150360749@qq.com"
+        }
+    ],
+
     "homepage": "https://github.com/suhaining/suning",
 
     "require": {
