@@ -57,7 +57,7 @@ class TokenBucketExpir
      */
     public function getMicroSecond()
     {
-        list($microsecond, $second) = explode(' ', microtime(true));
+        list($microsecond, $second) = explode(' ', microtime());
         $microsecond = (float)sprintf('%.0f', (floatval($microsecond) + floatval($second)) * 1000);
         return $microsecond;
     }

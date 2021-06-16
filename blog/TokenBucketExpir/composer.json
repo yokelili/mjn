@@ -9,13 +9,6 @@
 
     "license": "MIT",
 
-    "authors": [
-        {
-            "name": "winks",
-            "email": "1150361749@qq.com"
-        }
-    ],
-
     "homepage": "https://github.com/suhaining/suning",
 
     "require": {
@@ -30,7 +23,7 @@
 
     "autoload": {
         "psr-4": {
-            "Blog\\TokenBucketExpir\\": "src/"
+            "Blog\\TokenBucketExpir\\": "src/",
 
         }
 
