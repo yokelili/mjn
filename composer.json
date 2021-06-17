@@ -1,5 +1,5 @@
 {
-    "name": "blog/token_bucket_expir",
+    "name": "/token_bucket_expir",
 
     "type": "library",
 
