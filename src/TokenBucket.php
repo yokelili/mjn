@@ -1,12 +1,12 @@
 <?php
 
 
-namespace Blog\TokenBucketExpir;
+namespace Blog\TokenBucket;
 
 use Illuminate\Support\Facades\Redis;
 use Illuminate\Support\Facades\Log;
 
-class TokenBucketExpir
+class TokenBucket
 {
     /**
      * Notes:[限流鉴权]

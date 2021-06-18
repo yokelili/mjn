@@ -1,11 +1,11 @@
 {
-    "name": "/token_bucket_expir",
+    "name": "winks/token_bucket",
 
     "type": "library",
 
-    "description": "some small tools",
+    "description": "laravel+redis token bucket",
 
-    "keywords": ["token_bucket_expir"],
+    "keywords": ["token_bucket"],
 
     "license": "MIT",
 
@@ -16,7 +16,7 @@
         }
     ],
 
-    "homepage": "https://github.com/yokelili/mjn",
+    "homepage": "https://github.com/yokelili/mjn.git",
 
     "require": {
         "php": "^7.0",
@@ -31,7 +31,7 @@
 
     "autoload": {
         "psr-4": {
-            "Blog\\TokenBucketExpir\\": "src/"
+            "Blog\\TokenBucket\\": "src/"
 
         }
 

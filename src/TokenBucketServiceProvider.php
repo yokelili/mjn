@@ -1,10 +1,12 @@
 <?php
 
-namespace Blog\TokenBucketExpir;
+namespace Blog\TokenBucket;
 
+use Blog\TokenBucket\Http\Middleware\TokenBucketMiddleware;
+use Illuminate\Contracts\Http\Kernel;
 use Illuminate\Support\ServiceProvider;
 
-class TokenBucketExpirServiceProvider extends ServiceProvider
+class TokenBucketServiceProvider extends ServiceProvider
 {
     /**
      * 服务提供者加是否延迟加载.
@@ -30,6 +32,7 @@ class TokenBucketExpirServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        //
+        $kernel = $this->app->make(Kernel::class);
+        $kernel->pushMiddleware(TokenBucketMiddleware::class);
     }
 }
